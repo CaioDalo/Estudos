@@ -33,6 +33,26 @@ html, body {
     background-position: center;
 }
 
+.inside {
+    float: left;
+    background-color: rgb(33, 35, 67, 0.7);
+    width: 619px;
+    height: 270px;
+    margin: 100px;
+    padding-top: 30px;
+}
+
+.inside ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.inside ul > li {
+    color: white;
+    margin-top: 23px;
+    margin-left: 10px;
+}
+
 .container-banner > .center {
     height: 100%;
     text-align: right;
@@ -45,7 +65,8 @@ html, body {
     top: -15px;
     display: inline-block;
     background-color: white;
-    border: 6px solid #cccccc;
+    border: 8px solid #cccccc5d;
+    background-clip: padding-box;
 }
 
 .form h2 {
