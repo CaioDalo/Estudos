@@ -33,7 +33,7 @@ html, body {
     background-position: center;
 }
 
-.inside {
+.container-list {
     float: left;
     background-color: rgb(33, 35, 67, 0.7);
     width: 619px;
@@ -42,12 +42,12 @@ html, body {
     padding-top: 30px;
 }
 
-.inside ul {
+.container-list ul {
     text-align: left;
     list-style-position: inside;
 }
 
-.inside ul > li {
+.container-list ul > li {
     color: white;
     margin-top: 23px;
     margin-left: 10px;
