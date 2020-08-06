@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.clear {clear: both;}
+
+header {
+    padding: 8px 0;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 23px;
+}
+
+nav.menu-desktop {
+    float: right;
+}
+
+nav.menu-desktop ul {
+    position: relative;
+    top: 8px;
+}
+
+nav.menu-desktop li.selected {
+    font-weight: bold;
+}
+
+nav.menu-desktop li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+nav.menu-desktop ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav.menu-desktop a:hover {
+    text-decoration: underline;
+}
