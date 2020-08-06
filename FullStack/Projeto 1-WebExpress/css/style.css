@@ -52,3 +52,15 @@ nav.menu-desktop ul li a {
 nav.menu-desktop a:hover {
     text-decoration: underline;
 }
+
+/* Section main */
+
+main {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
