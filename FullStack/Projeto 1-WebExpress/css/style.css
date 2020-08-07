@@ -55,7 +55,7 @@ nav.menu-desktop a:hover {
 
 /* Section main */
 
-main {
+.image-bg {
     position: relative;
     width: 100%;
     padding: 140px 0 200px 0;
@@ -74,20 +74,73 @@ main {
     top: 0;
 }
 
-main .container {
+.image-bg .container {
     position: relative;
     z-index: 1;
 }
 
-main .container h2 {
+.image-bg .container h2 {
     color: #45ccc7;
     font-size: 40px;
     font-weight: normal;
 }
 
-main .container p {
+.image-bg .container p {
     text-align: justify;
     color: white;
     margin-top: 15px;
     font-size: 17px;
+}
+
+.diferenciais {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.line-text {
+    position: relative;
+    display: inline-block;
+    color: #45ccc7;
+}
+
+.line-text > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    height: 3px;
+    background-color: #45ccc7;
+}
+
+.diferenciais h2 {
+    font-size: 27px;
+    font-weight: normal;
+}
+
+.icones-diferenciais {
+    margin-top: 35px;
+}
+
+.icone-single {
+    float: left;
+    width: 33.33%;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.icone-single h2 {
+    font-size: 40px;
+    color: #8a6b62;
+}
+
+.icone-single p {
+    color: #646464;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .icone-single{
+        width: 100%;
+    }
 }
