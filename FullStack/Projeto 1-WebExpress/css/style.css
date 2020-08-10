@@ -139,6 +139,62 @@ nav.menu-desktop a:hover {
     font-size: 16px;
 }
 
+.equipe-sobre {
+    padding: 30px 0;
+    background-color: rgb(225,225,255);
+}
+
+section.equipe-sobre > .container {
+    display: flex;
+}
+
+.equipe-container {
+    width: 50%;
+}
+
+.sobre-container {
+    width: 50%;
+}
+
+.sobre-container p {
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.avatar-box {
+    margin-top: 10px;
+}
+
+.img-avatar {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: 100% 100%;
+}
+
+.descricao-avatar {
+    display: inline-block;
+    width: calc(100% - 70px);
+    padding: 0 10px;
+
+}
+
+.descricao-avatar h3 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.descricao-avatar p {
+    font-weight: lighter;
+    color: rgb(50, 50, 50);
+}
+
+.img-avatar {
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 768px) {
     .icone-single{
         width: 100%;
