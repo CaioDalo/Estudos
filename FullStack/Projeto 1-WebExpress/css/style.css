@@ -11,6 +11,15 @@
     padding: 0 2%;
 }
 
+.w50 {
+    width: 50%;
+    float: left;
+}
+
+.center {text-align: center;}
+
+
+
 .clear {clear: both;}
 
 header {
@@ -146,6 +155,7 @@ nav.menu-desktop a:hover {
 
 section.equipe-sobre > .container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .equipe-container {
@@ -195,8 +205,56 @@ section.equipe-sobre > .container {
     margin-top: 20px;
 }
 
+.inscricao {
+    background-color: #45ccc7;
+    padding: 20px 0;
+}
+
+.inscricao-text {
+    color: white;
+    font-weight: normal;
+}
+
+.inscricao-form input[type=text] {
+    width: calc(100% - 120px);
+    height: 40px;
+    background-color: white;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    outline: 0;
+    padding-left: 5px;
+}
+
+.inscricao-form input[type=submit] {
+    width: 120px;
+    height: 40px;
+    background-color: #1d6c64;
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+
 @media screen and (max-width: 768px) {
-    .icone-single{
+    .icone-single {
         width: 100%;
     }
+
+    .equipe-container {
+        width: 100%;
+    }
+    
+    .sobre-container {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .w50 {
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
+
