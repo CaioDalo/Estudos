@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <title>Projeto 1 Web Express</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    </head>
+
+    <body>
+        <header>
+            <section class="container">
+                <div class="logo">
+                    <h2>Caio.Daló</h2>
+                </div><!--logo-->
+                <nav class="menu-desktop">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="selected">
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu-mobile">
+                    <h2><i class="fa fa-bars"></i></h2>
+                    <ul>
+                        <li class="selected">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="clear"></div>
+            </section><!--container-->
+        </header>
+        
+        <footer class="footer1">
+            <div class="container">
+                <div class="w33">
+                    <h2>Onde estamos?</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua xxxxxx, S.J.Campos, SP</p>
+                    <p><i class="fas fa-phone-alt"></i> (11)11111-1111</p>
+                </div>
+                <div class="w33">
+                    <h2>Links úteis:</h2>
+                    <a href="https://github.com/CaioDalo" target="_blank">Caio Daló</a>
+                    <a href="https://www.google.com/search?q=caio+dal%C3%B3+de+souza" target="_blank">Google</a>
+                </div>
+                <div class="w33">
+                    <h2>Redes Sociais:</h2>
+                    <a href="https://www.linkedin.com/in/caio-dal%C3%B3-de-souza-a18ab53a/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
+                    <a href="https://www.instagram.com/caio.dalo/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>
+                </div>
+                <div class="clear"></div>
+            </div><!--container-->
+        </footer><!--footer1-->
+
+        <footer class="footer2">
+            <div class="container">
+                <p>Todos os direitos reservados !</p>
+            </div>
+        </footer>
+
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function() {
+            $('nav.menu-mobile ul').slideToggle();
+        })
+    </script>
+
+</html>

@@ -18,13 +18,27 @@
                 <nav class="menu-desktop">
                     <ul>
                         <li class="selected">
-                            <a href="">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="">Sobre</a>
+                            <a href="sobre.html">Sobre</a>
                         </li>
                         <li>
-                            <a href="">Contato</a>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="menu-mobile">
+                    <h2><i class="fa fa-bars"></i></h2>
+                    <ul>
+                        <li class="selected">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </nav>
@@ -172,5 +186,11 @@
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function() {
+            $('nav.menu-mobile ul').slideToggle();
+        })
+    </script>
 
 </html>
