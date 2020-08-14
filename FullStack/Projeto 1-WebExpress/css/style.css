@@ -338,6 +338,68 @@ section.equipe-sobre > .container {
     padding: 20px 0;
 }
 
+/*Sobre-style*/
+
+section.title-page {
+    padding: 30px;
+    width: 100%;
+    min-height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay_title-page  {
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.title-page > .container {
+    position: relative;
+    z-index: 101;
+}
+
+.title-page h2 {
+    color: #45ccc7;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.title-page  p {
+    color: white;
+    max-width: 640px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+/* Sobre > container > infos */ 
+section.sobre_infos {
+    padding: 30px 0;
+}
+
+.sobre_single_infos img {
+    max-width: 100%;
+    float: left;
+    width: 50%;
+}
+
+.sobre_single_infos p {
+    padding: 10px 15px;
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.sobre_single_infos .pw100 {
+    width: 100%;
+}
+
 @media screen and (max-width: 768px) {
     .icone-single {
         width: 100%;
@@ -363,6 +425,14 @@ section.equipe-sobre > .container {
 
     .footer1 {
         text-align: center;
+    }
+
+    .sobre_single_infos img {
+        width: 100%;
+    }
+    
+    .sobre_single_infos p {
+        width: 100%;
     }
 }
 
