@@ -12,9 +12,9 @@
     <body>
         <header>
             <section class="container">
-                <div class="logo">
+                <a class="logo" href="index.html">
                     <h2>Caio.Daló</h2>
-                </div><!--logo-->
+                </a><!--logo-->
                 <nav class="menu-desktop">
                     <ul>
                         <li>
@@ -27,7 +27,7 @@
                             <a href="contato.html">Contato</a>
                         </li>
                     </ul>
-                </nav>
+                </nav><!--menu-desktop-->
                 <nav class="menu-mobile">
                     <h2><i class="fa fa-bars"></i></h2>
                     <ul>
@@ -41,28 +41,69 @@
                             <a href="contato.html">Contato</a>
                         </li>
                     </ul>
-                </nav>
+                </nav><!--menu-mobile-->
                 <div class="clear"></div>
             </section><!--container-->
         </header>
         
+        <section class="title-page" style="background-image: url('images/background.jpg');">
+            <div class="overlay_title-page"></div><!--overlay_title-page-->
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum dolorem iure beatae labore id doloremque voluptatum, obcaecati, officiis laboriosam temporibus sed ipsam? Cupiditate sunt magnam, qui magni dicta consequatur.</p>
+            </div><!--container-->
+        </section><!--title-page-->
+
+        <section class="contato">
+            <div class="container">
+                <div class="w60-contato formulario">
+                    <h2>Entre em contato que responderemos o mais breve possível</h2>
+                    <form method="POST">
+                        <div class="w50-contato">
+                            <input type="text" placeholder="Nome..." name="" id="">
+                        </div><!--w50-contato-->
+                        <div class="w50-contato">
+                            <input type="text" placeholder="Sobrenome..." name="" id="">
+                        </div><!--w50-contato-->
+                        <div class="w100">
+                            <input type="email" placeholder="E-mail..." name="" id="">
+                        </div><!--w100-contato-->
+                        <div class="w100">
+                            <textarea name="" id="" placeholder="Sua mensagem..."></textarea>
+                        </div><!--w100-contato-->
+                    </form>
+                </div><!--w60-contato-->
+
+                <div class="w40 tags-form">
+                    <h2><i class="fa fa-comment"></i> Fale com a nossa equipe !</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+
+                    <p class="tags-contato"><i class="fab fa-facebook-square"></i> Caio Daló</p>
+                    <p class="tags-contato"><i class="fab fa-instagram"></i> Caio Daló</p>
+                    <p class="tags-contato"><i class="fas fa-phone-alt"></i> (12)99999-9999</p>
+                </div>
+
+                <div class="clear"></div>
+            </div><!--container-->
+        </section><!--contato-->
+
         <footer class="footer1">
             <div class="container">
                 <div class="w33">
                     <h2>Onde estamos?</h2>
                     <p><i class="fas fa-map-marker-alt"></i> Rua xxxxxx, S.J.Campos, SP</p>
                     <p><i class="fas fa-phone-alt"></i> (11)11111-1111</p>
-                </div>
+                </div><!--w33-->
                 <div class="w33">
                     <h2>Links úteis:</h2>
                     <a href="https://github.com/CaioDalo" target="_blank">Caio Daló</a>
                     <a href="https://www.google.com/search?q=caio+dal%C3%B3+de+souza" target="_blank">Google</a>
-                </div>
+                </div><!--w33-->
                 <div class="w33">
                     <h2>Redes Sociais:</h2>
                     <a href="https://www.linkedin.com/in/caio-dal%C3%B3-de-souza-a18ab53a/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a>
-                    <a href="https://www.instagram.com/caio.dalo/?hl=pt-br" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>
-                </div>
+                    <a href="https://www.instagram.com/caio.dalo/?hl=pt-br" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+                </div><!--w33-->
                 <div class="clear"></div>
             </div><!--container-->
         </footer><!--footer1-->
@@ -72,7 +113,6 @@
                 <p>Todos os direitos reservados !</p>
             </div>
         </footer>
-
     </body>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
